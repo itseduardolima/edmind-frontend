@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+}
+
+body {
+  background-color: var(--bg-body);
+}
+
+:root {
+  --bodyColor: #151515;
+  --boxColor: #1E1E1E;
+  --primaryColor: #e4e6e4;
+  --brand-color: rgba(31, 168, 79, 0.87);
+  --secendaryColor: #bcbcbc;
+  --title-2-color: #ebebeb;
+}
