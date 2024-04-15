@@ -1,10 +1,11 @@
-import software from "../../assets/Software integration-bro.svg";
+
 import { BubbleText } from "../../components/BubbleText";
 import { BtnWhatsapp, HeroContent, HeroImg, HeroSection } from "./styled";
 
 const Hero = () => {
   return (
     <HeroSection>
+      <HeroImg />
       <HeroContent>
         <BubbleText />
 
@@ -15,8 +16,6 @@ const Hero = () => {
           Entre em contato <i className="lab la-whatsapp"></i>{" "}
         </BtnWhatsapp>
       </HeroContent>
-
-      <HeroImg src={software} alt="hero image" />
     </HeroSection>
   );
 };

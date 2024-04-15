@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Image from "../../assets/log-in-girl.svg";
 
 export const HeroSection = styled.div`
   background: linear-gradient(to bottom, #151515, #1e1e1e);
@@ -9,6 +10,9 @@ export const HeroSection = styled.div`
   height: 100vh;
 
   @media (max-width: 768px) {
+    background-image: url(${Image});
+    background-size: cover;
+    background-position: center;
     flex-direction: column;
   }
 `;
@@ -30,6 +34,7 @@ export const HeroContent = styled.div`
 export const Title = styled.h1`
   cursor: pointer;
   font-size: 2rem;
+  font-weight: 500;
   margin-bottom: 1rem;
   animation: fadeInDown 1s ease-in-out;
   color: var(--primaryColor);
@@ -52,8 +57,9 @@ export const Title = styled.h1`
 export const Subtitle = styled.p`
   cursor: pointer;
   font-size: 20px;
+  font-weight: 500;
   animation: fadeInUp 1s ease-in-out;
-  color: var(--secendaryColor);
+  color: var(--title-2-color);
   @keyframes fadeInUp {
     0% {
       opacity: 0;
@@ -103,25 +109,15 @@ export const BtnWhatsapp = styled.a`
   }
 `;
 
-export const HeroImg = styled.img`
+export const HeroImg = styled.svg`
   width: 40vw;
   padding: 0 30px;
 
-  animation: fadeInDown 1s ease-in-out;
-  color: var(--primaryColor);
-  @keyframes fadeInDown {
-    0% {
-      opacity: 0;
-      transform: translateY(-50px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
+  background-image: url(${Image});
+  background-size: cover;
+  background-position: center;
 
   @media (max-width: 768px) {
-    padding-top: 40px;
-    width: 100%;
+    display: none;
   }
 `;
