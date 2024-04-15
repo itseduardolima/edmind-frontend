@@ -12,7 +12,7 @@ export const HeroSection = styled.div`
   @media (max-width: 768px) {
     background-image: url(${Image});
     background-size: cover;
-    background-position: center;
+    background-position: right;
     flex-direction: column;
   }
 `;
@@ -37,7 +37,10 @@ export const Title = styled.h1`
   font-weight: 500;
   margin-bottom: 1rem;
   animation: fadeInDown 1s ease-in-out;
-  color: var(--primaryColor);
+  color: white;
+  text-align: center;
+
+
   @keyframes fadeInDown {
     0% {
       opacity: 0;
@@ -48,16 +51,13 @@ export const Title = styled.h1`
       transform: translateY(0);
     }
   }
-
-  > span {
-    color: var(--bs-green);
-  }
 `;
 
 export const Subtitle = styled.p`
   cursor: pointer;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
+  text-align: center;
   animation: fadeInUp 1s ease-in-out;
   color: var(--title-2-color);
   @keyframes fadeInUp {
@@ -75,7 +75,6 @@ export const Subtitle = styled.p`
 export const BtnWhatsapp = styled.a`
   gap: 5px;
   padding: 10px;
-  width: 40%;
   cursor: pointer;
   margin-top: 10px;
   border-radius: 20px;
