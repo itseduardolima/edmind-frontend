@@ -2,7 +2,7 @@ import { Nav, Navbar } from "react-bootstrap";
 import styled from "styled-components";
 
 export const StyledNavbar = styled(Navbar)`
-  background-color: var(--bg-dark);
+  background-color: var(--boxColor);
   color: white;
   padding: 10px;
   position: fixed;
