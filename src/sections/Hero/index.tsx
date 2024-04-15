@@ -1,6 +1,6 @@
 import software from "../../assets/Software integration-bro.svg";
 import { BubbleText } from "../../components/BubbleText";
-import { BtnWhatsapp, HeroContent, HeroImg, HeroSection, Subtitle } from "./styled";
+import { BtnWhatsapp, HeroContent, HeroImg, HeroSection } from "./styled";
 
 const Hero = () => {
   return (
