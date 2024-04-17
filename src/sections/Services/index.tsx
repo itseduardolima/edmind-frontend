@@ -1,12 +1,6 @@
 import { Container } from "react-bootstrap";
-import {
-  DescriptionWrapper,
-  Pretitle,
-  ServiceCard,
-  ServiceGrid,
-  SubTitle,
-  Text,
-} from "./styled";
+import { ServiceCard, ServiceGrid } from "./styled";
+import { DescriptionWrapper, Pretitle, SubTitle, Text } from "../../styles/DescripitionTitle";
 
 const Services = () => {
   return (
