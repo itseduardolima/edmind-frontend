@@ -2,7 +2,6 @@ import styled from "styled-components";
 import Image from "../../assets/log-in-girl.svg";
 
 export const HeroSection = styled.div`
-  background: linear-gradient(to bottom, #151515, #1e1e1e);
   display: flex;
   justify-content: center;
   align-content: center;
