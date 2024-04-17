@@ -13,7 +13,7 @@ const Services = () => {
     <Container>
       <DescriptionWrapper>
         <Pretitle>Nossos Serviços</Pretitle>
-        <SubTitle>O que estavamos oferecendo?</SubTitle>
+        <SubTitle>O que estamos oferecendo?</SubTitle>
         <Text>
           Uma gama completa de serviços para impulsionar sua presença online.
           Desde o desenvolvimento web de alta qualidade até o design gráfico

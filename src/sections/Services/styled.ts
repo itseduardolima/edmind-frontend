@@ -46,16 +46,29 @@ export const ServiceGrid = styled.div`
 `;
 
 export const ServiceCard = styled.div`
+  text-align: justify;
   margin: auto;
   background-color: var(--boxColor);
   padding: 20px;
   border-radius: 5px;
-  width: 400px;
+  width: 350px;
+
+  @media (min-width: 414px) {
+    width: 390px;
+  }
+
+  @media (min-width: 768px) {
+    width: 400px;
+  }
 
   > i {
     color: var(--brand-color);
-    font-size: 4rem;
+    font-size: 2.5rem;
     margin-bottom: 20px;
+
+    @media (min-width: 768px) {
+      font-size: 4rem;
+    }
   }
 
   > h2 {

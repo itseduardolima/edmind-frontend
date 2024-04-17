@@ -36,7 +36,7 @@ export const Title = styled.h1`
   font-weight: 500;
   margin-bottom: 1rem;
   animation: fadeInDown 1s ease-in-out;
-  color: white;
+  color: var(--title-2-color);
   text-align: center;
 
 
@@ -82,8 +82,8 @@ export const BtnWhatsapp = styled.a`
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  background-color: var(--bs-green);
-  color: var(--boxColor);
+  background-color: var(--brand-color);
+  color: var(--title-2-color);
 
   animation: fadeInUp 1s ease-in-out;
   color: var(--secendaryColor);
