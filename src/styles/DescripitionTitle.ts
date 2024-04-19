@@ -17,7 +17,7 @@ export const Pretitle = styled.h4`
 
 export const SubTitle = styled.h1`
   color: var(--primaryColor);
-  font-size: 45px;
+  font-size: 30px;
   font-weight: bold;
   position: relative;
   text-transform: capitalize;
