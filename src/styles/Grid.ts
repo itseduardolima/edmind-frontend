@@ -4,6 +4,7 @@ export const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 30px;
+  margin-top: 2rem;
   padding-bottom: 30px;
 
   @media (min-width: 768px) {
@@ -21,14 +22,20 @@ export const GridCard = styled.div`
   background-color: var(--boxColor);
   padding: 20px;
   border-radius: 5px;
+  cursor: pointer;
   width: 350px;
+  transition: transform 0.4s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 
   @media (min-width: 414px) {
     width: 390px;
   }
 
   @media (min-width: 768px) {
-    width: 380px;
+    width: 370px;
   }
 
   > h1 {
@@ -67,5 +74,26 @@ export const GridCard = styled.div`
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 1rem;
+  }
+
+  > img {
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 1rem;
+  }
+`;
+
+export const GridLink = styled.div`
+  padding: 10px;
+  > a {
+    font-size: 13px;
+    text-decoration: none;
+    color: var(--brand-color);
+  }
+
+  > h5 {
+    color: var(--title-2-color);
+    font-weight: bold;
   }
 `;

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const DescriptionWrapper = styled.div`
+  margin-top: 3rem;
   width: 100%;
 
   @media (min-width: 768px) {
