@@ -27,10 +27,10 @@ const Services = () => {
           <i className="las la-code"></i>
           <h2>Desenvolvimento Web</h2>
           <p>
-            Transforme suas ideias em realidade com nosso desenvolvimento web
-            personalizado. Criamos websites que não apenas impressionam
-            visualmente, mas também oferecem uma experiência excepcional ao
-            usuário, garantindo que sua marca se destaque online.
+            Transforme suas ideias em realidade com nosso desenvolvimento web.
+            Criamos websites que não apenas impressionam visualmente, mas também
+            oferecem uma experiência excepcional ao usuário, garantindo que sua
+            marca se destaque online.
           </p>
         </GridCard>
         <GridCard>
@@ -47,11 +47,10 @@ const Services = () => {
           <i className="las la-search"></i>
           <h2>Serviços SEO</h2>
           <p>
-            Seja encontrado quando importa! Nossos serviços de SEO são
-            projetados para melhorar sua classificação nos mecanismos de busca,
-            aumentar sua autoridade online e direcionar o tráfego qualificado
-            para o seu website. Alcance seu público-alvo onde eles estão
-            procurando.
+            Nossos serviços de SEO são projetados para melhorar sua
+            classificação nos mecanismos de busca, aumentar sua autoridade
+            online e direcionar o tráfego qualificado para o seu website.
+            Alcance seu público-alvo onde eles estão procurando.
           </p>
         </GridCard>
       </Grid>

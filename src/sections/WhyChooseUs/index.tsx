@@ -35,7 +35,7 @@ const WhyChooseUs = () => {
           <p>
             Utilizamos as melhores tecnologias para
             desenvolvimento web, design gráfico e SEO, garantindo que sua
-            presença online esteja sempre à frente da concorrência..
+            presença online esteja sempre à frente da concorrência.
           </p>
         </GridCard>
         <GridCard>
