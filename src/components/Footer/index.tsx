@@ -32,7 +32,7 @@ const Footer: React.FC<ContactProps> = ({ id }) => {
           </FooterContact>
         </FooterColumn>
         <FooterColumn>
-          <h4>Redes Sociais</h4>
+          <h4>Redes sociais</h4>
           <SocialMedia>
             <i className="lab la-twitter"></i>
             <i className="lab la-instagram"></i>

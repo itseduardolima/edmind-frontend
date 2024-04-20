@@ -13,7 +13,7 @@ const About: React.FC<AboutProps> = ({ id }) => {
     <AboutContainer id={id} ref={ref}>
       <TextWrapper>
         <Pretitle>Sobre nós</Pretitle>
-        <SubTitle>Construindo Sua Presença Digital</SubTitle>
+        <SubTitle>Construindo sua presença digital</SubTitle>
         <Text>
           Estamos aqui para ajudar você a alcançar o sucesso online. Nossa
           equipe dedicada e criativa trabalha incansavelmente para criar

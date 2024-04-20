@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Image from "../../assets/log-in-girl.svg";
 
-export const HeroSection = styled.div`
+export const HeroSection = styled.section`
   display: flex;
   justify-content: center;
   align-content: center;
@@ -16,7 +16,7 @@ export const HeroSection = styled.div`
   }
 `;
 
-export const HeroContent = styled.div`
+export const HeroContent = styled.main`
   width: 50vw;
   padding: 0 50px;
   display: flex;

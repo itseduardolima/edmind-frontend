@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const DescriptionWrapper = styled.div`
+export const DescriptionWrapper = styled.main`
   margin-top: 3rem;
   width: 100%;
 
@@ -21,7 +21,6 @@ export const SubTitle = styled.h1`
   font-size: 30px;
   font-weight: bold;
   position: relative;
-  text-transform: capitalize;
 `;
 
 export const Text = styled.p`
