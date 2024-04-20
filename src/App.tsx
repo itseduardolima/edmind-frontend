@@ -11,11 +11,11 @@ function App() {
     <div>
       <Header />
       <Hero />
-      <Services />
-      <About />
+      <Services id="services" />
+      <About id="about" />
       <WhyChooseUs />
-      <Portfolio />
-      <Footer />
+      <Portfolio id="portfolio" />
+      <Footer id="contact" />
     </div>
   );
 }

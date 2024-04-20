@@ -1,12 +1,5 @@
 import { useRef } from "react";
-import {
-  FooterColumn,
-  FooterContact,
-  FooterContainer,
-  FooterGrid,
-  FooterTitle,
-  SocialMedia,
-} from "./styled";
+import { FooterColumn, FooterContact, FooterContainer, FooterGrid, FooterTitle, SocialMedia } from "./styled";
 
 type ContactProps = {
   id?: string;

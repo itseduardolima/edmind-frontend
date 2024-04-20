@@ -1,39 +1,16 @@
-import { Container } from "react-bootstrap";
 import ImgAbout from "../../assets/About us.svg";
-import styled from "styled-components";
+import { useRef } from "react";
 import { Pretitle, SubTitle, Text } from "../../styles/DescripitionTitle";
+import { AboutContainer, Img, TextWrapper } from "./styled";
 
-export const AboutContainer = styled(Container)`
-  display: flex;
-  justify-content: center;
-  align-items: center;
+type AboutProps = {
+  id?: string;
+};
 
-  @media (max-width: 768px) {
-    flex-direction: column;
-  }
-`;
-
-export const TextWrapper = styled.div`
-  gap: 10px;
-  width: 50vw;
-
-  @media (max-width: 768px) {
-    width: 100%;
-  }
-`;
-
-export const Img = styled.img`
-  width: 40vw;
-
-  @media (max-width: 768px) {
-    padding: 20px;
-    width: 100%;
-  }
-`;
-
-const About = () => {
+const About: React.FC<AboutProps> = ({ id }) => {
+  const ref = useRef(null);
   return (
-    <AboutContainer>
+    <AboutContainer id={id} ref={ref}>
       <TextWrapper>
         <Pretitle>Sobre nós</Pretitle>
         <SubTitle>Construindo Sua Presença Digital</SubTitle>

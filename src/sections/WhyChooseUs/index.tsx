@@ -1,11 +1,6 @@
 import { Container } from "react-bootstrap";
 import { GridCard, Grid } from "../../styles/Grid";
-import {
-  DescriptionWrapper,
-  Pretitle,
-  SubTitle,
-  Text,
-} from "../../styles/DescripitionTitle";
+import { DescriptionWrapper, Pretitle, SubTitle, Text } from "../../styles/DescripitionTitle";
 
 const WhyChooseUs = () => {
   return (

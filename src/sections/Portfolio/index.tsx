@@ -1,18 +1,21 @@
-import { Container } from "react-bootstrap";
 import { GridCard, Grid, GridLink } from "../../styles/Grid";
-import {
-  DescriptionWrapper,
-  Pretitle,
-  SubTitle,
-} from "../../styles/DescripitionTitle";
+import { DescriptionWrapper, Pretitle, SubTitle } from "../../styles/DescripitionTitle";
+import { useRef } from "react";
 
 import KaduFitness from "../../assets/kadu-fitness.jpeg";
 import PerolaLanche from "../../assets/perola-lanches.jpeg";
 import PortfolioDev from "../../assets/portfolio-dev.jpeg";
+import { SectionContainer } from "../../styles/Container";
 
-const Portfolio = () => {
+type PortfolioProps = {
+  id?: string;
+};
+
+const Portfolio: React.FC<PortfolioProps> = ({ id }) => {
+  const ref = useRef(null);
+
   return (
-    <Container>
+    <SectionContainer id={id} ref={ref}>
       <DescriptionWrapper>
         <Pretitle>Portfólio</Pretitle>
         <SubTitle>Nosso Portfólio</SubTitle>
@@ -47,7 +50,7 @@ const Portfolio = () => {
           </GridLink>
         </GridCard>
       </Grid>
-    </Container>
+    </SectionContainer>
   );
 };
 

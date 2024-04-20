@@ -28,7 +28,7 @@ export const StyledNav = styled(Nav)`
 
 export const StyledBrand = styled.a`
   margin-right: 0;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 800;
   color: white;
   text-decoration: none;

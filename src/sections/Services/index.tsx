@@ -1,15 +1,17 @@
-import { Container } from "react-bootstrap";
 import { GridCard, Grid } from "../../styles/Grid";
-import {
-  DescriptionWrapper,
-  Pretitle,
-  SubTitle,
-  Text,
-} from "../../styles/DescripitionTitle";
+import { DescriptionWrapper, Pretitle, SubTitle, Text } from "../../styles/DescripitionTitle";
+import { useRef } from "react";
+import { SectionContainer } from "../../styles/Container";
 
-const Services = () => {
+type ServicesProps = {
+  id?: string;
+};
+
+const Services: React.FC<ServicesProps> = ({ id }) => {
+  const ref = useRef(null);
+
   return (
-    <Container>
+    <SectionContainer id={id} ref={ref}>
       <DescriptionWrapper>
         <Pretitle>Nossos Serviços</Pretitle>
         <SubTitle>O que estamos oferecendo?</SubTitle>
@@ -54,7 +56,7 @@ const Services = () => {
           </p>
         </GridCard>
       </Grid>
-    </Container>
+    </SectionContainer>
   );
 };
 
