@@ -25,9 +25,9 @@ const Portfolio: React.FC<PortfolioProps> = ({ id }) => {
         <GridCard style={{ padding: "0" }}>
           <img src={KaduFitness} alt="" />
           <GridLink>
-            <h5>Kadu Fitnesss</h5>
+            <h5>Kadu Fitness</h5>
             <a href="https://kadufitness.netlify.app/" target="_blank">
-              Acessar Projeto <i className="las la-arrow-right"></i>
+              Acessar projeto <i className="las la-arrow-right"></i>
             </a>
           </GridLink>
         </GridCard>
@@ -45,7 +45,7 @@ const Portfolio: React.FC<PortfolioProps> = ({ id }) => {
           <GridLink>
             <h5>Portfólio Desenvolvedor</h5>
             <a href="https://eduardolima.netlify.app/" target="_blank">
-              Acessar Projeto <i className="las la-arrow-right"></i>
+              Acessar projeto <i className="las la-arrow-right"></i>
             </a>
           </GridLink>
         </GridCard>
