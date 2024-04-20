@@ -43,7 +43,7 @@ const Portfolio: React.FC<PortfolioProps> = ({ id }) => {
         <GridCard style={{ padding: "0" }}>
           <img src={PortfolioDev} alt="" />
           <GridLink>
-            <h5>Portófio Desenvolvedor</h5>
+            <h5>Portfólio Desenvolvedor</h5>
             <a href="https://eduardolima.netlify.app/" target="_blank">
               Acessar Projeto <i className="las la-arrow-right"></i>
             </a>
