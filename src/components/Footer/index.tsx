@@ -28,7 +28,6 @@ const Footer: React.FC<ContactProps> = ({ id }) => {
           <FooterContact>
             <p className="footer-link">edmindsoluctions@gmail.com</p>
             <p className="footer-link">+55 (92) 99188-7687</p>
-            <p className="footer-link">+55 (92) 98445-3980</p>
           </FooterContact>
         </FooterColumn>
         <FooterColumn>
